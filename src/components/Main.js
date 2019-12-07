@@ -2,14 +2,20 @@ require('normalize.css/normalize.css');
 require('styles/App.css');
 
 import React from 'react';
-import App from './App';
+import { Provider } from 'react-redux';
+
+import App from './App/App';
+
+import store from './../store/store';
 
 class AppComponent extends React.Component {
   render() {
     return (
-      <div className="index">
-        <App/>
-      </div>
+      <Provider store={store}>
+        <div className="index">
+          <App/>
+        </div>
+      </Provider>
     );
   }
 }

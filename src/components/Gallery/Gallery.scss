@@ -1,5 +1,17 @@
 .gallery-root {
   text-align: center;
+  padding: 50px;
+
+  @media screen and (max-width: 676px) {
+    padding: 0;
+  }
+}
+
+.gallery-row {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 5vw);
+  grid-gap: 1.5rem;
 }
 
 .gallery-header {

@@ -3,24 +3,39 @@ body, html {
   margin: 0;
 }
 
+/*
+ * color
+ */
+$primary-red: #EB453F;
+
+h1,h2,h3,h4,h5,h6,p{
+  display: block;
+  font-size: 1rem;
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  font-weight: bold;
+}
+
 .app-root {
   text-align: center;
 }
 
-.app-header {
-  background-color: #222;
-  padding: 10px;
-  color: white;
-  font-size: 20pt;
+.image-root .image-icon{
+  border-radius: 100px !important;
 }
 
-.app-input {
-  line-height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 14px;
-  padding: 0 8px;
-  color: #666;
-  width: 400px;
-  margin-bottom: 30px;
+.center-v-h{
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
+
+.error-txt{
+  font-weight: 300;
+  color: $primary-red;
+}
+
