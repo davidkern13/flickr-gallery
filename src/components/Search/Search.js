@@ -2,8 +2,11 @@ import React from 'react';
 import './Search.scss';
 
 import { connect } from 'react-redux';
+
+import Navbar from '../../navigationUrl/Navbar';
+
 import {searchQuery} from '../../store/search/action';
-import { TITLE, SUB_TITLE, SEARCH_PLACEHOLDER, DEFAULT_VALUE } from '../../enum/search';
+import { TITLE, SUB_TITLE, SEARCH_PLACEHOLDER, DEFAULT_VALUE, TRENDING } from '../../enum/search';
 
 class Search extends React.Component {
 
@@ -24,12 +27,13 @@ class Search extends React.Component {
 
   render() {
 
-    let { tag, trending } = this.state;
+    let { tag, trending} = this.state;
 
     return (
       <div className="app-root">
 
         <div className="app-header">
+          <Navbar />
           <div className="app-content">
             <div className="wrap-title">
               <h1>{TITLE}</h1>
@@ -39,7 +43,7 @@ class Search extends React.Component {
             <input className="app-input" onChange={e => this.handeTagSelected('tag', e.target.value)} value={tag} placeholder={SEARCH_PLACEHOLDER}/>
 
             <div className="wrap-trending">
-              <h4>Trending: </h4>
+              <h4>{TRENDING}</h4>
               {trending.map( (item, idx) => <span key={idx} onClick={() => this.handeTagSelected('tag', item)}>{item}{trending.length-1 !== idx ? ',' : ''}</span>)}
             </div>
           </div>

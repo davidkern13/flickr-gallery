@@ -10,11 +10,12 @@ import { selectedImageObject } from '../../utils/utils';
 class Image extends React.PureComponent {
   static propTypes = {
     dto: PropTypes.object,
+    activeFavorite: PropTypes.bool,
     galleryWidth: PropTypes.number,
-    position: PropTypes.number,
     handleFlip: PropTypes.func,
     handleExpandImg: PropTypes.func,
     handleDuplicat: PropTypes.func,
+    handleFavorite: PropTypes.func,
     isActiveFlip: PropTypes.string
   };
 
@@ -51,15 +52,14 @@ class Image extends React.PureComponent {
       {objectFit: 'cover'})
   }
 
-
   render() {
 
-    let { dto, isActiveFlip, position } = this.props,
+    let { dto, activeFavorite, isActiveFlip, handleFlip, handleDuplicate, handleFavorite, handleExpandImg } = this.props,
         urlImage = this.urlFromDto(dto),
         imageStyle = this.imageSize();
 
     return (
-      <div className={`image-root image-root-${position}`} style={imageStyle}>
+      <div className={`image-root image-root-${dto.position}`} style={imageStyle}>
 
         <img
           className={`${isActiveFlip}`}
@@ -69,9 +69,11 @@ class Image extends React.PureComponent {
         />
 
         <FontIcons
-          handleFlip={() => this.props.handleFlip(position)}
-          handleDuplicate={() => this.props.handleDuplicate(dto)}
-          handleExpandImg={(e) => this.props.handleExpandImg(selectedImageObject(e, urlImage, dto, `.image-root-${position}`, true, position))}
+          handleFlip={() => handleFlip(dto.position)}
+          handleDuplicate={() => handleDuplicate(dto)}
+          handleFavorite={() => handleFavorite(dto, activeFavorite)}
+          handleExpandImg={(e) => handleExpandImg(selectedImageObject(e, urlImage, dto, `.image-root-${dto.position}`, true, dto.position))}
+          favorited={activeFavorite}
         />
 
       </div>

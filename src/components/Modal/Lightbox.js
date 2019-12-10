@@ -62,12 +62,12 @@ class Lightbox extends Component {
         resizeStyle = this.changeImageSize();
 
     return (
-      <div className="modal">
-        <div className="modal-overlay" onClick={this.handleClose}></div>
+      <div className={'modal'}>
+        <div className={'modal-overlay'} onClick={this.handleClose}></div>
         <LightboxNav />
-        <div className="modal-content" style={resizeStyle}>
+        <div className={'modal-content'} style={resizeStyle}>
             <img
-              className="lightbox-photo"
+              className={'lightbox-photo'}
               src={photo.url}
               style={{display: imageStatus ? 'block' : 'none'}}
               onLoad={this.handleImageLoaded}
@@ -77,14 +77,14 @@ class Lightbox extends Component {
             />
 
           {!imageStatus &&
-            <div className="center-v-h">
+            <div className={'center-v-h'}>
               <LoadingSpinner />
             </div>
           }
 
           {imageStatus == null &&
-            <div className="center-v-h">
-              <p className="error-txt">Image load failed try another time</p>
+            <div className={'center-v-h'}>
+              <p className={'error-txt'}>Image load failed try another time</p>
             </div>
           }
         </div>

@@ -1,0 +1,47 @@
+.app-header.favorite {
+  padding: 50px 0px 30px 0px;
+  background-image: url(https://images.unsplash.com/photo-1431329842981-433c8635c2b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-position-y: 40%;
+}
+
+.app-content.favorite{
+
+  > .container-image {
+    overflow: hidden;
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+    border: 2px solid #AA90F5;
+    box-shadow: 0 0.3px 6.4px rgba(255, 255, 255, 0.5);
+
+    > img{
+      width: 100%;
+    }
+  }
+
+  > .wrap-title.favorite{
+
+    flex-direction: column;
+
+    > h1{
+      font-weight: 300;
+      font-size: 1.8rem;
+      padding: 20px 0px;
+    }
+
+    > .container-personal-info{
+
+      > div {
+        margin: 0px 10px;
+      }
+
+      > div p{
+        font-size: 1rem;
+        font-weight: 300;
+      }
+    }
+  }
+
+
+
+}

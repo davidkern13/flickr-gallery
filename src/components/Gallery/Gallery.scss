@@ -1,6 +1,6 @@
 .gallery-root {
   text-align: center;
-  padding: 50px;
+  padding: 20px 50px 50px 50px;
 
   @media screen and (max-width: 676px) {
     padding: 0;
@@ -23,4 +23,49 @@
 
 .gallery-intro {
   font-size: 15pt;
+}
+
+.container-gallery-info{
+
+  > .container-count-pht {
+    display: flex;
+    justify-items: end;
+    flex: 1;
+
+    > p{
+      padding: 0 10px;
+      color: #a7a7a7;
+      font-weight: 300;
+    }
+
+    .pth > span{
+      color: #FE94A0;
+    }
+
+    .tag > span{
+      color: #24C8E9;
+    }
+  }
+
+}
+
+
+.button-grid{
+  width: 26px;
+  height: 26px;
+  outline: none;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  background-repeat: no-repeat;
+  margin: 0px 10px;
+  background-size: 20px;
+  background-position: top 2.5px left 2.5px;
+}
+
+.icons-grid-regular{
+  background-image: url('../../media/icons/icons-grid-regular.png');
+}
+
+.icons-grid-module{
+  background-image: url('../../media/icons/icons-grid-module.png');
 }
