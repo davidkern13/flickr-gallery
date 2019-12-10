@@ -90,10 +90,10 @@ Thank you for the opportunity to do the project task.
 
 - Components
 
-  • App
-  • Favorite
-  • Search
-  • Gallery
+  • App <br/>
+  • Favorite <br/>
+  • Search <br/>
+  • Gallery <br/>
   • Image
   • Modal
   • Navigate
