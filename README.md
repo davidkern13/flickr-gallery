@@ -71,36 +71,42 @@ Thank you for the opportunity to do the project task.
 
 ## About app
 
-• App
+- App
 
-  - react redux
-  - local storage
+  • react redux
+  • local storage
 
-• Image Actions
+- Image Actions 👍
   
-  - clicking the flip button should flip the image horizontally
-  - clicking the clone button should duplicate the image
-  - clicking an image should display this image in a larger view width option to full view 
+  • clicking the flip button should flip the image horizontally
+  • clicking the clone button should duplicate the image
+  • clicking an image should display this image in a larger view width option to full view 
   
-• Gallery Actions
+- Gallery Actions 👍
   
-  - functionality which enables the user to select their favorite images (add/remove)
-  - refreshing or closing the site will not reset the favorites
-  - infinite scroll
+  • functionality which enables the user to select their favorite images (dynamicaly add/remove)
+  • refreshing or closing the site will not reset the favorites
+  • infinite scroll
 
-• Components
+- Components
 
-  - App
-  - Favorite
-  - Search
-  - Gallery
-  - Image
-  - Modal
-  - Navigate
-  - Loading
+  • App
+  • Favorite
+  • Search
+  • Gallery
+  • Image
+  • Modal
+  • Navigate
+  • Loading
   
+- What i am learn
 
-I had a lot of fun :)
+  • I learned about new trends like Magnific Gallery, GSAP Animation. 
+    What can you see? Project architecture and good project environment to make the project grow, perform the required tasks. sharing       basic animations, dynamic operations, nice flow for user experience and hinking presentation on the project how it is now and where     it can grow 🎯.
+
+I had a lot of fun ☺️
+
+Thank you, David 
 
 ## Screenshots from the project 
 
