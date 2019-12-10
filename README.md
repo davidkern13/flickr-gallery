@@ -67,15 +67,14 @@ After you've completed your tasks, and you are ready to submit it, do the follow
 
 # David Work
 
-
-33/5000
 Thank you for the opportunity to do the project task.
 
 I had a lot of fun :)
 
-#Screenshots from the project 
+## Screenshots from the project 
 
-Home page
+# Home page
 ![alt text](https://www.imageupload.net/upload-image/2019/12/10/gallery1.png)
-Favorite page
+
+# Favorite page
 ![alt text](https://www.imageupload.net/upload-image/2019/12/10/gallery2.png)
