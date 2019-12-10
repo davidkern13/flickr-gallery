@@ -111,3 +111,7 @@ I had a lot of fun :)
 # Favorite page
 
 ![alt text](https://www.imageupload.net/upload-image/2019/12/10/gallery2.png)
+
+# Image modal
+
+![alt text](https://www.imageupload.net/upload-image/2019/12/10/gallery3.png)
