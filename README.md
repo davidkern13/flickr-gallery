@@ -76,6 +76,6 @@ I had a lot of fun :)
 #Screenshots from the project 
 
 Home page
-![alt text](https://www.imageupload.net/image/vHmIg)
+![alt text](https://www.imageupload.net/upload-image/2019/12/10/gallery1.png)
 Favorite page
-![alt text](https://www.imageupload.net/image/vHwFs)
+![alt text](https://www.imageupload.net/upload-image/2019/12/10/gallery2.png)
