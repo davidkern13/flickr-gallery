@@ -62,3 +62,20 @@ After you've completed your tasks, and you are ready to submit it, do the follow
 
 ## Good Luck!
 ![Break a leg](https://media0.giphy.com/media/aHs1EAnUAxYgU/giphy.gif)
+
+
+
+# David Work
+
+
+33/5000
+Thank you for the opportunity to do the project task.
+
+I had a lot of fun :)
+
+#Screenshots from the project 
+
+Home page
+![alt text](https://www.imageupload.net/image/vHmIg)
+Favorite page
+![alt text](https://www.imageupload.net/image/vHwFs)
