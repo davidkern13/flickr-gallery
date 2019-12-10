@@ -69,12 +69,45 @@ After you've completed your tasks, and you are ready to submit it, do the follow
 
 Thank you for the opportunity to do the project task.
 
+## About app
+
+• App
+
+  - react redux
+  - local storage
+
+• Image Actions
+  
+  - clicking the flip button should flip the image horizontally
+  - clicking the clone button should duplicate the image
+  - clicking an image should display this image in a larger view width option to full view 
+  
+• Gallery Actions
+  
+  - functionality which enables the user to select their favorite images (add/remove)
+  - refreshing or closing the site will not reset the favorites
+  - infinite scroll
+
+• Components
+
+  - App
+  - Favorite
+  - Search
+  - Gallery
+  - Image
+  - Modal
+  - Navigate
+  - Loading
+  
+
 I had a lot of fun :)
 
 ## Screenshots from the project 
 
 # Home page
+
 ![alt text](https://www.imageupload.net/upload-image/2019/12/10/gallery1.png)
 
 # Favorite page
+
 ![alt text](https://www.imageupload.net/upload-image/2019/12/10/gallery2.png)
