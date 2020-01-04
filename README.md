@@ -1,6 +1,4 @@
-# Flickr Gallery
-
-Wix Test
+# Flickr Gallery Test
 
 ## About app
 
