@@ -29,15 +29,6 @@
   • Modal <br/>
   • Navigate <br/>
   • Loading <br/>
-  
-- What i am learn
-
-  • I learned about new trends like Magnific Gallery, GSAP Animation. <br/>
-    What can you see? Project architecture and good project environment to make the project grow, perform the required tasks, sharing       basic animations, dynamic operations, nice flow for user experience and hinking presentation on the project how it is now and where     it can grow 🎯.
-
-I had a lot of fun ☺️ <br/>
-
-Thank you, David  <br/>
 
 ## Screenshots from the project 
 
