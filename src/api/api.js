@@ -8,7 +8,7 @@ import { removeDuplicateObjects } from '../utils/utils';
 import axios from 'axios';
 
 export const fetchData = (tag, getApi, apiError, pagination) => {
-  const getImagesUrl = `services/rest/?method=flickr.photos.search&api_key=522c1f9009ca3609bcbaf08545f067ad&tags=${tag}&tag_mode=any&per_page=${pagination*100}&format=json&safe_search=1&nojsoncallback=1`;
+  const getImagesUrl = `services/rest/?method=flickr.photos.search&api_key=${key}&tags=${tag}&tag_mode=any&per_page=${pagination*100}&format=json&safe_search=1&nojsoncallback=1`;
   const baseUrl = 'https://api.flickr.com/';
   axios({
     url: getImagesUrl,
