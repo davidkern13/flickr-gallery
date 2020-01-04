@@ -2,11 +2,6 @@
 
 Wix Test
 
-
-# David Work
-
-Thank you for the opportunity to do the project task.
-
 ## About app
 
 - App
