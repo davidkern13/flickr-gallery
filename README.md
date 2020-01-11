@@ -1,23 +1,6 @@
 # Flickr Gallery Test
 
-## About app
-
-- App
-
-  • react redux <br/>
-  • local storage <br/>
-
-- Image Actions 👍
-  
-  • clicking the flip button should flip the image horizontally <br/>
-  • clicking the clone button should duplicate the image <br/>
-  • clicking an image should display this image in a larger view width option to full view  <br/>
-  
-- Gallery Actions 👍
-  
-  • functionality which enables the user to select their favorite images (dynamicaly add/remove) <br/>
-  • refreshing or closing the site will not reset the favorites <br/>
-  • infinite scroll <br/>
+Flickr gallery wirt react using redux, localstorage, redux saga for test.
 
 - Components
 
